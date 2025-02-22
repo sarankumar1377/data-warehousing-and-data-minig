@@ -1,0 +1,26 @@
+
+> data <- c(10, 20, 30, 40, 50)
+
+> mean_value <- mean(data)
+
+> print(mean_value)
+[1] 30
+
+> median_value <- median(data)
+
+> print(median_value)
+[1] 30
+
+> get_mode <- function(x) {
++   uniq_vals <- unique(x)
++   uniq_vals[which.max(tabulate(match(x, uniq_vals)))]
++ }
+
+> data2 <- c(1, 2, 2, 3, 3, 3, 4, 4, 5)
+
+> mode_value <- get_mode(data2)
+
+> print(mode_value)
+[1] 3
+
+> sink(file = NULL)

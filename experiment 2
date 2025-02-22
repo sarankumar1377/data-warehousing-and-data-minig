@@ -1,0 +1,11 @@
+
+> num1=12
+
+> num2=56
+
+> num3=num1-num2
+
+> print(num3)
+[1] -44
+
+> sink(file = NULL)
