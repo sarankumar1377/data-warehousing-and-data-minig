@@ -1,0 +1,9 @@
+
+> data_df <- read.csv("data.csv")
+
+> column_vector <- data_df$ColumnName  # Replace 'ColumnName' with actual column name
+
+> print(column_vector)
+NULL
+
+> sink(file = NULL)

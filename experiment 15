@@ -1,0 +1,13 @@
+
+> a <- 10
+
+> b <- 25
+
+> c <- 15
+
+> greatest <- max(a, b, c)
+
+> print(paste("The greatest number is:", greatest))
+[1] "The greatest number is: 25"
+
+> sink(file = NULL)
